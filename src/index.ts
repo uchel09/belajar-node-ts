@@ -1,4 +1,4 @@
-import express, { Application, Request, Response, NextFunction } from 'express'
+import express, { type Application, type Request, type Response, type NextFunction } from 'express'
 
 const app: Application = express()
 const PORT: number = 4000
